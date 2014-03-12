@@ -3,7 +3,7 @@ ORIG_PN="glibmm"
 inherit cross gtkmm
 
 NAME="mingw64-x86_64-glibmm2.4"
-VERSION=2.36.2
+VERSION=2.38.1
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GLib C++ bindings for Win64 toolchain"
@@ -12,4 +12,4 @@ contains msvcrt-linked binaries (aka 'mingw').  It is for use with the
 mingw64-x86_64-gcc cross compiler, and installs into the
 /usr/x86_64-w64-mingw32/sys-root/mingw/{lib,include} directories."
 
-CYGCONF_ARGS="--disable-documentation"
+CYGCONF_ARGS="--disable-documentation --disable-static"
