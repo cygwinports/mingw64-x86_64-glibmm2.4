@@ -3,7 +3,7 @@ ORIG_PN="glibmm"
 inherit cross gtkmm
 
 NAME="mingw64-x86_64-glibmm2.4"
-VERSION=2.50.0
+VERSION=2.50.1
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GLib C++ bindings for Win64 toolchain"
